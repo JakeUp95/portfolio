@@ -22,7 +22,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: 2.5em;
-  margin-top: -250px;
+  margin-top: -150px;
   
   font-family: 'East Sea Dokdo', cursive;
 }
@@ -45,7 +45,7 @@ h2 {
 }
 
 .hero-image {
-  background-image: url(fortpoliologo2.png);
+  background-image: url(navlogo.png);
   background-size: cover;
   width: 450px;
   height: 450px;
@@ -85,7 +85,38 @@ height:550px;
 display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -700px;
 }
+
+.image4
+{
+  width:500px;
+  height:650px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -200px;
+  
+}
+
+.image5
+{
+  width:500px;
+  height:650px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -800px;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+
 
  /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
