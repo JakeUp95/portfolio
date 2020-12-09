@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 
+html, body {width: auto!important; overflow-x: hidden!important}  
+
 body {
   margin: 0px;
   padding: 0px;
@@ -166,6 +168,39 @@ display: block;
     left: -400%;
   }
 }
+#jpvideo {
+text-align: left;
+margin-bottom: 100px;
+margin-left: 40px;
+margin-right: 40px;
+font-family: 'East Sea Dokdo', cursive;
+font-size: 30px;
+
+}
+
+#michellevideo {
+  text-align: left;
+margin-bottom: 100px;
+margin-left: 40px;
+margin-right: 40px;
+font-family: 'East Sea Dokdo', cursive;
+font-size: 30px;
+
+}
+
+.video1 {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.video2 {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
  /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
     background-color: #302e2e;
@@ -226,4 +261,3 @@ display: block;
     }
   }
 
-  
