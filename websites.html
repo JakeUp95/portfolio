@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+  <div>
+    <h1>Websites</h1>
+  </div>
+
+  <div id="slider">
+    <figure>
+        <img src="paint.png" alt="">
+        <img src="music2.png" alt="">
+        <img src="ballet.jpg" alt="">
+        <img src="biler.jpg" alt="">
+
+    </figure>
+  </div>
+
+  <div class="parent">
+    <div class="background-image"></div>
+    </div>
+   
+
+  <div>
+    <h2></h2>
+  </div>
+  
+    <div class="navbar" id="myNavbar">
+        <a href="index.html">Hjem</a>
+        <a href="Illustrationer.html">Illustrationer</a>
+        <a href="websites.html">Websites</a>
+        <a href="Videoer.html">Videoer</a>
+        <a href="#about">CV</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <script type="text/javascript"> 
+        /* Toggle between adding and removing the "responsive" class to the navbar when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+        </script>
+</body>
+</html>

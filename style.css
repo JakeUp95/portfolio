@@ -95,7 +95,7 @@ display: block;
   display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -200px;
+    margin-bottom: -450px;
   
 }
 
@@ -106,18 +106,57 @@ display: block;
   display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -800px;
-}
-.logo {
-  display: inline-block;
-  vertical-align: top;
-  width: 50px;
-  height: 50px;
-  margin-right: 20px;
-  margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    margin-bottom: -600px;
 }
 
+#slider {
+  overflow: hidden;
+}
 
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
  /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
     background-color: #302e2e;
@@ -126,6 +165,7 @@ display: block;
     bottom: 0;
     width: 100%;
     opacity: 95%;
+    z-index: 15;
   }
   
   /* Style the links inside the navigation bar */
@@ -145,7 +185,7 @@ display: block;
   
   /* Add a background color to the active link */
   .navbar a.active {
-    background-color: #2f3b2f;
+    background-color: #3acd3a;
     color: white;
   }
   
