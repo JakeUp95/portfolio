@@ -25,11 +25,39 @@ h2 {
   text-align: center;
   font-size: 2.5em;
   margin-top: 415px;
-  
   font-family: 'East Sea Dokdo', cursive;
 }
  
+#targetleasingh {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 40px;
+  font-family: 'East Sea Dokdo', cursive;
+}
 
+#balletbybirgitteh {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 100px;
+  font-family: 'East Sea Dokdo', cursive;
+  margin-bottom: -60px;
+}
+
+#bollyh {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 100px;
+  font-family: 'East Sea Dokdo', cursive;
+  margin-bottom: -60px;
+}
+
+#spacegym {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 100px;
+  font-family: 'East Sea Dokdo', cursive;
+  margin-bottom: -60px;
+}
 .background-image {
   background-image: url(paperimage.jpg);
   background-size: cover;
@@ -115,54 +143,75 @@ display: block;
   margin-right: auto;
 }
 
-#slider {
-  overflow: hidden;
+.image7
+{
+  width:300px;
+  height:400px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
-#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  animation: 20s slider infinite;
-
+.image8
+{
+  width:350px;
+  height:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
 }
 
-#slider figure img {
-  width: 20%;
-  float: left;
-
+.image9
+{
+  width:350px;
+  height:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
-@keyframes slider {
-  0% {
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
-  }
+.image10
+{
+  width:350px;
+  height:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
 }
+
+.image11
+{
+  width:350px;
+  height:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.image12
+{
+  width:350px;
+  height:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+}
+
+.image13
+{
+  width:350px;
+  height:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+}
+
 #jpvideo {
 text-align: left;
 margin-bottom: 100px;
@@ -184,6 +233,46 @@ font-size: 22px;
 margin-bottom: -200px;
 
 }
+
+#wheels {
+text-align: left;
+margin-top: -100px;
+margin-left: 40px;
+margin-right: 40px;
+font-family: 'East Sea Dokdo', cursive;
+font-size: 22px;
+margin-bottom: 100px;
+}
+
+#ballet {
+  text-align: left;
+  margin-top: -100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 22px;
+  margin-bottom: 0px;
+  }
+
+  #bolly {
+    text-align: left;
+    margin-top: -100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 22px;
+    margin-bottom: 60px;
+    }
+
+    #space {
+      text-align: left;
+      margin-top: -100px;
+      margin-left: 40px;
+      margin-right: 40px;
+      font-family: 'East Sea Dokdo', cursive;
+      font-size: 22px;
+      margin-bottom: 100px;
+      }
 
 .video1 {
   display: block;
