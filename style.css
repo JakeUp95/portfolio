@@ -171,20 +171,21 @@ display: block;
 #jpvideo {
 text-align: left;
 margin-bottom: 100px;
+margin-top: -50px;
 margin-left: 40px;
 margin-right: 40px;
 font-family: 'East Sea Dokdo', cursive;
-font-size: 30px;
+font-size: 22px;
 
 }
 
 #michellevideo {
-  text-align: left;
-margin-bottom: 100px;
+text-align: left;
+margin-top: -2px;
 margin-left: 40px;
 margin-right: 40px;
 font-family: 'East Sea Dokdo', cursive;
-font-size: 30px;
+font-size: 22px;
 
 }
 
