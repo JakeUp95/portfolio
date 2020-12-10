@@ -14,20 +14,22 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 55px;
+  margin-top: 85px;
   font-family: 'East Sea Dokdo', cursive;
   font-size: 60px;
   padding: 0px;
+  
  
 }
 
 h2 {
   text-align: center;
   font-size: 2.5em;
-  margin-top: 415px;
+  margin-top: 320px;
   font-family: 'East Sea Dokdo', cursive;
 }
- 
+ /* headers til hjemmesiderne */
+
 #targetleasingh {
   text-align: center;
   font-size: 2.5em;
@@ -68,7 +70,7 @@ h2 {
   position: fixed;
   z-index: -1;
 }
-
+/* forside logo billede */
 .hero-image {
   background-image: url(navlogo.png);
   background-size: cover;
@@ -81,11 +83,11 @@ h2 {
   left: 50%;
   z-index: 10;
   transform: translate(-50%, -50%);
-  margin-top: -120px;
+  margin-top: -100px;
   margin-left: -10px;
 
 }
-
+/* styling af billeder */
 .image1
 {
 width:300px;
@@ -193,7 +195,7 @@ display: block;
   margin-right: auto;
   margin-top: -80px;
 }
-
+/* tekst til videoerne */
 #jpvideo {
 text-align: left;
 margin-bottom: 100px;
@@ -215,7 +217,7 @@ font-size: 25px;
 margin-bottom: -200px;
 
 }
-
+/* tekst til illustrationer */
 #sketch{
 text-align: left;
 margin-top: -110px;
@@ -248,15 +250,17 @@ margin-bottom: 100px;
   
 }
 
+/* tekst til de forskellige hjemmesider */
+
 #wheels {
-text-align: left;
-margin-top: -100px;
-margin-left: 30px;
-margin-right: 30px;
-font-family: 'East Sea Dokdo', cursive;
-font-size: 25px;
-margin-bottom: 100px;
-}
+  text-align: left;
+  margin-top: -100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 25px;
+  margin-bottom: 100px;
+  }
 
 #ballet {
   text-align: left;
@@ -288,6 +292,7 @@ margin-bottom: 100px;
       margin-bottom: 100px;
       }
 
+/* videolayout */
 .video1 {
   display: block;
   margin: 0 auto;
@@ -302,18 +307,18 @@ margin-bottom: 100px;
 
 
 
- /* Place the navbar at the bottom of the page, and make it stick */
+ /* Gør så navbaren er placeret nederst */
 .navbar {
-    background-color: #302e2e;
+    background-color: #323536;
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
-    opacity: 95%;
+   
     z-index: 15;
   }
   
-  /* Style the links inside the navigation bar */
+  /* layout på links */
   .navbar a {
     float: left;
     display: block;
@@ -328,18 +333,11 @@ margin-bottom: 100px;
   
 
   
-  /* Add a background color to the active link */
-  .navbar a.active {
-    background-color: #3acd3a;
-    color: white;
-  }
   
-  /* Hide the link that should open and close the navbar on small screens */
   .navbar .icon {
     display: none;
   }
 
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
 @media screen and (max-width: 600px) {
     .navbar a:not(:first-child) {display: none;}
     .navbar a.icon {
@@ -348,7 +346,7 @@ margin-bottom: 100px;
     }
   }
   
-  /* The "responsive" class is added to the navbar with JavaScript when the user clicks on the icon. This class makes the navbar look good on small screens (display the links vertically instead of horizontally) */
+
   @media screen and (max-width: 600px) {
     .navbar.responsive a.icon {
       position: absolute;
