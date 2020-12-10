@@ -33,7 +33,7 @@ h2 {
 #targetleasingh {
   text-align: center;
   font-size: 2.5em;
-  margin-top: 40px;
+  margin-top: 99px;
   font-family: 'East Sea Dokdo', cursive;
 }
 
@@ -129,11 +129,12 @@ display: block;
 
 .image7
 {
-  width:300px;
-  height:400px;
+  width:350px;
+  height:445px;
   display: block;
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 47px;
 }
 
 .image8
@@ -248,7 +249,7 @@ margin-bottom: 100px;
   margin-bottom: 100px;
   }
   
-}
+
 
 /* tekst til de forskellige hjemmesider */
 
@@ -270,6 +271,7 @@ margin-bottom: 100px;
   font-family: 'East Sea Dokdo', cursive;
   font-size: 25px;
   margin-bottom: 0px;
+
   }
 
   #bolly {
@@ -360,3 +362,57 @@ margin-bottom: 100px;
     }
   }
 
+  .responsive {
+    padding: 0 0px;
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .responsive1 {
+    padding: 0 0px;
+    float: left;
+    width: 33%;
+    margin-left: 0px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive1 {
+      width: 49.99999%;
+      margin: 0px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive1 {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+ 
